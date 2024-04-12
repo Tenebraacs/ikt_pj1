@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powerless™</title>
+    
+
+
+    <style>
+        /* General styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        /* Style for the side menu */
+        .sidebar {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #333;
+            padding-top: 60px; /* Adjusted for the header height */
+        }
+        /* Style for the menu links */
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+        }
+        .sidebar a:hover {
+            background-color: #555;
+        }
+        /* Style for the header */
+        header {
+            background-color: #444;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: calc(100% - 200px); /* Adjusted for the side menu width */
+            z-index: 1;
+        }
+        /* Style for the menu buttons */
+        .menu-btn {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            background-color: #555;
+        }
+        .menu-btn:hover {
+            background-color: #777;
+        }
+        /* Style for the main content */
+        .content {
+            margin-left: 200px; /* Adjusted for the side menu width */
+            padding-top: 80px; /* Adjusted for the header height */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Side menu -->
+<div class="sidebar">
+    <a href="#">Menu Item 1</a>
+    <a href="#">Menu Item 2</a>
+    <a href="#">Menu Item 3</a>
+    <a href="#">Menu Item 4</a>
+    <a href="#">Menu Item 5</a>
+</div>
+
+<!-- Header with menu buttons -->
+<header>
+    <h1>Title</h1>
+    <a href="#" class="menu-btn">Button 1</a>
+    <a href="#" class="menu-btn">Button 2</a>
+    <a href="#" class="menu-btn">Button 3</a>
+    <a href="#" class="menu-btn">Button 4</a>
+    <a href="#" class="menu-btn">Button 5</a>
+</header>
+
+<!-- Main content -->
+<div class="content">
+    <h2>Main Workspace</h2>
+    <p>This is where your main content goes.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
