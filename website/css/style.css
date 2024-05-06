@@ -1,41 +1,61 @@
 body{
-    background-color: rgb(39, 38, 38) ;
+    background-color: rgb(226, 0, 0) ;
 }
 
-body:hover > #trailer{
-    opacity: 1;
+.menuText{
+    font-size: 1.2rem;
 }
-#trailer {
-    height: 20px;
-    width: 20px;
-    background-color: white;
-    border-radius: 20px;
-    position: fixed;
-    left: 0px;
-    right: 0px;
-    z-index: 10000;
+/*
+<div class="container-half bg-dark">
+            
+                    </div>
+                    <div class="container-half bg-primary">
+                        
+                    </div>
+*/
+/*<!-- filler (kitöltő, eskü nem ChatGPT írta csak herótom van a magyar nyelvtől :))-->*/
+.apad{
+    border: 5%;
+}
+.full-height-container {
+    height: 100vh;
+}
+#powerless {
+    font-size: 1.5rem;
+}
 
-    pointer-events: none;
-    opacity: 0;
-    transform: opacity 500ms ease;
+html, body {
+    height: 100%;
+    margin: 0;
 }
-#menuText{
-    font-size: large;
+
+.container-full {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container-half {
+    flex: 1;
 }
 nav{
-    
-    height: 80px;
-    border-bottom: 3px solid black;
+    height: 4rem;
 }
-.nav-link{
-    border: 1px solid white;
-    
-}
+
 .nav-pills .nav-link.active{
-    background-color: cyan;
-    color: brown;
+    background-color: rgb(0, 35, 111);
+    color: rgb(255, 255, 255);
     
 }
+
+#nav-color {
+    background-color: rgb(30, 30, 30);
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
 /*
 .divbg{
     
