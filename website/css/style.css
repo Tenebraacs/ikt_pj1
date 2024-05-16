@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(226, 0, 0) ;
+    background-color: rgb(38, 36, 36) ;
+    min-width: 650px;
 }
 
 .menuText{
@@ -14,6 +15,7 @@ body{
                     </div>
 */
 /*<!-- filler (kitöltő, eskü nem ChatGPT írta csak herótom van a magyar nyelvtől :))-->*/
+
 .apad{
     border: 5%;
 }
@@ -54,6 +56,22 @@ nav{
 
 .nav-link {
     color: rgb(255, 255, 255);
+}
+
+.white {
+    color: azure;
+}
+
+.whiteish {
+    color: rgb(129, 219, 219);
+}
+
+a {
+    text-decoration: none;
+}
+
+#karakter {
+    max-height: 400px;
 }
 
 /*
